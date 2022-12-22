@@ -3,12 +3,12 @@ const sumAll = function(a, b) {
     if (a < 0 || b < 0 ) {
         return "ERROR"
     } else if (a > b) {
-        for (let i = b; i < a; i++) {
+        for (let i = b; i <= a; i++) {
             sum += i;
         }
         return sum
     } else if (b > a) {
-        for (let i = a; i < b; i++) {
+        for (let i = a; i <= b; i++) {
             sum += i;
         }
         return sum
