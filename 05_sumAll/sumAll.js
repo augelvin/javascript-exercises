@@ -1,6 +1,10 @@
 const sumAll = function(a, b) {
     let sum = 0;
-    if (a < 0 || b < 0 ) {
+    let aType = typeof a;
+    let bType = typeof b;
+    if (aType != 'number' || bType != 'number') {
+        return "ERROR"
+    } else if (a < 0 || b < 0) {
         return "ERROR"
     } else if (a > b) {
         for (let i = b; i <= a; i++) {
