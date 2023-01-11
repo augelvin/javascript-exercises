@@ -7,15 +7,15 @@ const subtract = function(a, b) {
 };
 
 const sum = function(array) {
-  return array.reduce((inter, i) => inter + i, 0);
+  return array.reduce((inter, i) => inter + i, 0)
 };
 
 const multiply = function(array) {
-  return array.reduce((inter, i) => inter * i, 1);
+  return array.reduce((inter, i) => inter * i, 1)
 };
 
-const power = function() {
-	
+const power = function(a, b) {
+	return a**b
 };
 
 const factorial = function() {
